@@ -6,7 +6,7 @@
 **Edition:** First Edition (2026)  
 **Format:** PDF · 574 pages
 
-[**Read or download the book (PDF)**](./Voltage_Regulator_Design_Hatami.pdf)
+[**Read or download the book (PDF)**](./Voltage_Regulator_Design.pdf)
 
 ## About the book
 
