@@ -4,7 +4,7 @@
 
 **Author:** Mohsen Hatami  
 **Edition:** First Edition (2026)  
-**Format:** PDF · 574 pages
+**Format:** PDF · 550 pages
 
 [**Read or download the book (PDF)**](./Voltage_Regulator_Design.pdf)
 
@@ -12,7 +12,7 @@
 
 *Voltage Regulator Design: From Linear to Switching* is a technical textbook and reference for power-electronics and hardware design engineers and graduate students. It covers the design of voltage regulators from the Zener shunt regulator and the LDO to multiphase, resonant, and phase-shifted converters, and the protection and current-sensing circuits that surround them. It brings together explanations, design equations, step-by-step procedures, worked designs with real controller ICs, design rules, and checklists.
 
-The book has 40 chapters in seven parts and a supplement, eight appendices, more than 230 figures, and more than 130 tables. Each worked design starts from a table of requirements, develops every equation in numbered steps with the numbers shown, and ends with a results table or bill of materials. Each chapter opens with an overview and learning objectives and closes with key takeaways and review problems; the answers are collected at the back of the book. Device values taken from manufacturers' datasheets are cited, every design built around a named device carries a revision date, and a revision register at the end of Part VII lists them all.
+The book has 40 chapters in seven parts and a supplement, eight appendices, more than 230 figures, and more than 130 tables. Each worked design starts from a table of requirements, develops every equation in numbered steps with the numbers shown, and ends with a results table or bill of materials. Each chapter opens with an overview and learning objectives and closes with key takeaways and review problems; the answers are collected at the back of the book. Device values taken from manufacturers' datasheets are cited, every design built around a named device carries a revision date, and a revision register in the supplement lists them all.
 
 ## Topics covered
 
@@ -50,10 +50,10 @@ The book has 40 chapters in seven parts and a supplement, eight appendices, more
   - Overcurrent and short-circuit protection, eFuses, and hot swap.
   - Undervoltage and overvoltage lockout, inrush, inductive-load, thermal, and surge protection.
   - Shunt current sensing, and ground bounce and shared return impedance.
-  - Selection tables, troubleshooting cases, and registers of the worked designs and their revisions.
-- **Supplement — High-Current and Welding Outputs:**
+- **Supplement — High-Current Outputs, Welding Rectifiers, and Selection Tables:**
   - Scaling the secondary side of soft-switched converters to 100 A and above: rectifier arrangements, synchronous rectification, paralleling, and current sharing.
   - Rectifiers and output stages for welding machines, including a 200 A inverter welder.
+  - Selection tables, troubleshooting cases, and registers of the worked designs and their revisions.
 
 The appendices include:
 - a formula reference sheet and component property tables;
