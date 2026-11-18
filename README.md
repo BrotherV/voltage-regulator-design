@@ -4,15 +4,15 @@
 
 **Author:** Mohsen Hatami  
 **Edition:** First Edition (2026)  
-**Format:** PDF · 489 pages
+**Format:** PDF · 574 pages
 
-[**Read or download the book (PDF)**](./Voltage_Regulator_Design.pdf)
+[**Read or download the book (PDF)**](./Voltage_Regulator_Design_Hatami.pdf)
 
 ## About the book
 
 *Voltage Regulator Design: From Linear to Switching* is a technical textbook and reference for power-electronics and hardware design engineers and graduate students. It covers the design of voltage regulators from the Zener shunt regulator and the LDO to multiphase, resonant, and phase-shifted converters, and the protection and current-sensing circuits that surround them. It brings together explanations, design equations, step-by-step procedures, worked designs with real controller ICs, design rules, and checklists.
 
-The book has 40 chapters in seven parts, eight appendices, more than 220 figures, and more than 120 tables. Each worked design starts from a table of requirements, develops every equation in numbered steps with the numbers shown, and ends with a results table or bill of materials. Each chapter opens with an overview and learning objectives and closes with key takeaways and review problems; the answers are collected at the back of the book. Device values taken from manufacturers' datasheets are cited, and every figure states what kind of evidence it is: analytical, simulation, schematic, conceptual, or illustrative.
+The book has 40 chapters in seven parts and a supplement, eight appendices, more than 230 figures, and more than 130 tables. Each worked design starts from a table of requirements, develops every equation in numbered steps with the numbers shown, and ends with a results table or bill of materials. Each chapter opens with an overview and learning objectives and closes with key takeaways and review problems; the answers are collected at the back of the book. Device values taken from manufacturers' datasheets are cited, every design built around a named device carries a revision date, and a revision register at the end of Part VII lists them all.
 
 ## Topics covered
 
@@ -36,17 +36,24 @@ The book has 40 chapters in seven parts, eight appendices, more than 220 figures
   - Flyback converters, with designs using the UCC28C43, UCC28782, and XDPS2221E.
   - Forward converters, with designs using the UC3845, UCC2897A, and MAX17599.
   - Push-pull, bridge, and LLC resonant converters, with UCC25661 and UCC28951 designs and digital control with the XDPP1188.
-- **Part V — Control:** small-signal modeling of switching converters, control methods (voltage mode, peak and average current mode, constant on-time), compensator design, and loop measurement.
-- **Part VI — Practical Design:** PCB layout for switching regulators, EMI and input filters, and protection, efficiency, thermal design, and testing.
-- **Part VII — High-Current Outputs, Protection and Current Sensing:**
-  - Scaling the secondary side of soft-switched converters to 100 A and above: rectifier arrangements, synchronous rectification, paralleling, and current sharing.
-  - Rectifiers and output stages for welding machines, including a 200 A inverter welder.
+- **Part V — Control:**
+  - Small-signal modeling: state-space averaging, the PWM switch, real-component and DCM plants, current-mode plants.
+  - Control methods: voltage mode with feedforward, peak and average current mode, slope compensation, current sensing, constant on-time.
+  - Compensator design: Type I, II, and III, the K factor, margins over tolerance, and loop measurement.
+- **Part VI — Practical Design:**
+  - PCB layout: hot loops of each topology, loop-inductance budget, snubber design from a measured ringing, stack-up, routing of sensitive nodes, a layout walkthrough, copper for current and heat.
+  - EMI and input filters: LISN and limits, the spectrum of a switching waveform, differential- and common-mode filter design, filter–converter interaction, radiated emissions, mitigation, and debugging.
+  - Protection, efficiency, thermal design, derating, and a test plan with a corner matrix.
+- **Part VII — Protection and Current Sensing:**
   - MOSFET fundamentals for protection circuits.
   - Reverse-polarity and reverse-current protection, and power routing.
   - Overcurrent and short-circuit protection, eFuses, and hot swap.
   - Undervoltage and overvoltage lockout, inrush, inductive-load, thermal, and surge protection.
   - Shunt current sensing, and ground bounce and shared return impedance.
-  - Selection tables, troubleshooting cases, and a register of the worked designs.
+  - Selection tables, troubleshooting cases, and registers of the worked designs and their revisions.
+- **Supplement — High-Current and Welding Outputs:**
+  - Scaling the secondary side of soft-switched converters to 100 A and above: rectifier arrangements, synchronous rectification, paralleling, and current sharing.
+  - Rectifiers and output stages for welding machines, including a 200 A inverter welder.
 
 The appendices include:
 - a formula reference sheet and component property tables;
